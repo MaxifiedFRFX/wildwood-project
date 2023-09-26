@@ -1,0 +1,40 @@
+The people come to the wildwood facility to improve blood pressure, cholesterol,
+levels, improve sleep, etc. 
+
+They eat a plant base diet when they are there among other things.
+
+an experiment was essentially conducted:
+health data was collected before, directly after, and 3 months after the program
+
+Note that the dots in the following feature names represent unsupported 
+characters like white space and parentheses
+
+ID - identifies unique patient
+Program.length - length of the program in 11 days
+Session.type - MD (), LA (life alignment), MH(mental health)
+SBP1 -
+SBP2 - 
+SBP3 -
+systolic blood pressure, pressure of blood flow when heart muscle squeezes (contracts), pumping blood. 
+
+DBP1 -
+DBP2 -
+DBP3 - 
+diastolic blood pressure, pressure measured between heartbeats.
+
+Intake_Height - (in inches) assuming height doesn't change 
+
+Wt..lbs.1 -
+Wt..lbs.2 - 
+Wt..lbs.3 - 
+Wt refers to weight. The number associated with each item corresponds to different weight in time:
+before the program, directly after the program, 3 months after the program
+
+Days.btwn.baseline.and.F.U.BP
+
+BMI was not taken into account
+
+WC1 - 
+WC2 - 
+WC3 -
+weight circumference
