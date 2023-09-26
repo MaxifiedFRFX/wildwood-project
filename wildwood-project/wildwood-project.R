@@ -3,7 +3,7 @@ count_missing = function(df) {
 }
 
 colnames(survey1)
-survey1_deleted <- survey1[-c(2:27, 28, 36)]
+survey1_deleted <- survey1[-c(1:82)]
 colnames(survey1_deleted)
 count_missing(survey1_deleted)
 sapply(clean_base_1, class)
@@ -17,11 +17,16 @@ for (col in non_numeric_columns) {
 }
 
 clean_base_1 <- survey1_deleted[complete.cases(survey1_deleted), , drop = FALSE]
+names(clean_base_1) <- substring(names(clean_base_1), 2, 3)
 
 library(factoextra)
 res.pca <- prcomp(clean_base_1, scale = TRUE)
 
-fviz_pca_var(res.pca, col.var = "black")
+fviz_pca_var(res.pca,
+             col.var = "cos2", # Color by the quality of representation cos2
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE     # Avoid text overlapping
+)
 
 # varlist <- setdiff(colnames(survey1), c("Variable.Field.Name"))
 
