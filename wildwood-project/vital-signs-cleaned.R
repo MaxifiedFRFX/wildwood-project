@@ -2,15 +2,11 @@ library(knitr)
 opts_chunk$set(fig.width=9, fig.height=7)
 opts_chunk$set(comment="", fig.align="center", tidy=TRUE, fig.retina=2, cache = TRUE)
 
-library(tidyverse)
-library(broom)
-library(naniar)
-library(simputation)
 library(VIM)
 
 library(tidyverse)
 
-new_vitals_df1 <- read_csv("../vital-signs.csv", show_col_types = FALSE)
+new_vitals_df <- read_csv("../vital-signs.csv", show_col_types = FALSE)
 # data features to cut out are: BMI1, BMI2, BMI3, Days btwn baseline and F/U Wt
 new_vitals_df1 <- new_vitals_df[, !(names(new_vitals_df) %in% 
                       c("BMI1", "BMI2", "BMI3", "Days btwn baseline and F/U Wt"))]
