@@ -1,1 +1,1 @@
-data(../data.xlsx)
+data(survey1)
