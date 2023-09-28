@@ -43,3 +43,7 @@ fviz_pca_var(res.pca,
              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
              repel = TRUE     # Avoid text overlapping
 )
+
+
+# looking at items
+new_vitals_df <- read_csv("../vital-signs.csv", show_col_types = FALSE)

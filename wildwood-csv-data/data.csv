@@ -1,0 +1,46 @@
+Variable/Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations OR Slider Labels"
+Study_ID,survey_1,SF_36,numeric,question_1,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,SF_36,numeric,question_2,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,SF_36,numeric,question_3,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_4,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_5,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_6,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_7,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_8,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_9,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_10,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_11,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_12,1=0 l 2=50 l 3=100
+Study_ID,survey_1,SF_36,numeric,question_13,1=0 l 2=100
+Study_ID,survey_1,SF_36,numeric,question_14,1=0 l 2=100 
+Study_ID,survey_1,SF_36,numeric,question_15,1=0 l 2=100
+Study_ID,survey_1,SF_36,numeric,question_16,1=0 l 2=100
+Study_ID,survey_1,SF_36,numeric,question_17,1=0 l 2=100
+Study_ID,survey_1,SF_36,numeric,question_18,1=0 l 2=100 
+Study_ID,survey_1,SF_36,numeric,question_19,1=0 l 2=100 
+Study_ID,survey_1,SF_36,numeric,question_20,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,SF_36,numeric,question_21,1=100 I 2=80 l 3=60 l 4=40 l 5=20 I 6=0
+Study_ID,survey_1,SF_36,numeric,question_22,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,SF_36,numeric,question_23,1=100 I 2=80 l 3=60 l 4=40 l 5=20 I 6=0
+Study_ID,survey_1,SF_36,numeric,question_24,1=0 I 2=20 l 3=40 l 4=60 l 5=80 I 6=100
+Study_ID,survey_1,SF_36,numeric,question_25,1=0 I 2=20 l 3=40 l 4=60 l 5=80 I 6=100
+Study_ID,survey_1,SF_36,numeric,question_26,1=100 I 2=80 l 3=60 l 4=40 l 5=20 I 6=0
+Study_ID,survey_1,SF_36,numeric,question_27,1=100 I 2=80 l 3=60 l 4=40 l 5=20 I 6=0
+Study_ID,survey_1,SF_36,numeric,question_28,1=0 I 2=20 l 3=40 l 4=60 l 5=80 I 6=100
+Study_ID,survey_1,SF_36,numeric,question_29,1=0 I 2=20 l 3=40 l 4=60 l 5=80 I 6=100
+Study_ID,survey_1,SF_36,numeric,question_30,1=100 I 2=80 l 3=60 l 4=40 l 5=20 I 6=0
+Study_ID,survey_1,SF_36,numeric,question_31,1=0 I 2=20 l 3=40 l 4=60 l 5=80 I 6=100
+Study_ID,survey_1,SF_36,numeric,question_32,1=0 I 2=25 l 3=50 l 4=75 l 5=100 
+Study_ID,survey_1,SF_36,numeric,question_33,1=0 I 2=25 l 3=50 l 4=75 l 5=100 
+Study_ID,survey_1,SF_36,numeric,question_34,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,SF_36,numeric,question_35,1=0 I 2=25 l 3=50 l 4=75 l 5=100 
+Study_ID,survey_1,SF_36,numeric,question_36,1=100 I 2=75 l 3=50 l 4=25 l 5=0
+Study_ID,survey_1,DUREL,text,question_34,1=Never I 2=Once a year or less l 3=A few times a year l 4=A few times a month l 5=Once a week l 6=More than once/week
+Study_ID,survey_1,DUREL,text,question_35,1=Rarely or never I 2=A few times a month l 3=Once a week l 4=Two or more times/week l 5=Daily l 6=More than once a day
+Study_ID,survey_1,DUREL,text,question_36,1=Definitely not true I 2=Tends not to be true l 3=Unsure l 4=Tends to be true l 5=Definitely true of me
+Study_ID,survey_1,DUREL,text,question_37,1=Definitely not true I 2=Tends not to be true l 3=Unsure l 4=Tends to be true l 5=Definitely true of me
+Study_ID,survey_1,DUREL,text,question_38,1=Definitely not true I 2=Tends not to be true l 3=Unsure l 4=Tends to be true l 5=Definitely true of me
+Study_ID,survey_1,PHQ-4,text,question_39,0= Not at all I 1= Several days I 2= More than half of the days I 3= Nearly every day
+Study_ID,survey_1,PHQ-4,text,question_40,0= Not at all I 1= Several days I 2= More than half of the days I 3= Nearly every day
+Study_ID,survey_1,PHQ-4,text,question_41,0= Not at all I 1= Several days I 2= More than half of the days I 3= Nearly every day
+Study_ID,survey_1,PHQ-4,text,question_42,0= Not at all I 1= Several days I 2= More than half of the days I 3= Nearly every day
