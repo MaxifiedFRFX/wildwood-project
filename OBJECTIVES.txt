@@ -1,0 +1,14 @@
+Describe 9 findings in teams of two with the dataset I sent you today by 
+email from Wildwood. Upload a document with the description of the 
+results and another file with the source code. You can use R, Python 
+and Weka in this lab. Points per finding = 100/9. The objective of this 
+lab is to work on real data from a real institution. This is a non-profit 
+project. 
+
+1. 3 "important" findings using K-Means. You can do several experiments. however, you'll describe the 3 most relevant results.
+	-
+	-
+	- 
+2. 3 "important" findings using PCA. You can do several experiments. however, you'll describe the 3 most relevant results.
+	- correlation between *BMI* and *survey 1*, *survey 2*
+3. 3 answers to the questions Dr. Aysha Inancur presented in her email. 
