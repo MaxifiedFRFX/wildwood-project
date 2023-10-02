@@ -11,4 +11,9 @@ project.
 	- 
 2. 3 "important" findings using PCA. You can do several experiments. however, you'll describe the 3 most relevant results.
 	- correlation between *BMI* and *survey 1*, *survey 2*
+	-
+	-
 3. 3 answers to the questions Dr. Aysha Inancur presented in her email. 
+	-
+	-
+	-
