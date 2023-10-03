@@ -3,11 +3,10 @@ library(VIM)
 count_missing = function(df) {
   sapply(df, FUN=function(col) sum(is.na(col)) )
 }
-survey1_deleted <- survey1[-c(1:28)]
+colnames(survey1)
+survey1_deleted <- survey1[-c(1:60, 83:87, 89:95, 99:105, 107)]
 survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed <- format(strptime(survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed, "%I%p"), format="%H")
 colnames(survey1_deleted)
-count_missing(survey1_deleted)
-sapply(clean_base_1, class)
 
 column_types <- sapply(survey1_deleted, class)
 
@@ -22,7 +21,8 @@ for (col in non_numeric_columns) {
 #imputed_data <- kNN(survey1_deleted)
 
 clean_base_1 <- survey1_deleted[complete.cases(survey1_deleted), , drop = FALSE]
-names(clean_base_1) <- substring(names(clean_base_1), 2, 3)
+names(clean_base_1) <- substring(names(clean_base_1), 2, 4)
+names(clean_base_1) <- make.unique(names(clean_base_1))
 
 library(factoextra)
 res.pca <- prcomp(clean_base_1, scale = TRUE)
