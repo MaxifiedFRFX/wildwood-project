@@ -5,19 +5,19 @@ count_missing = function(df) {
   sapply(df, FUN=function(col) sum(is.na(col)) )
 }
 colnames(survey1)
-survey1_deleted <- survey1[-c(1:37, 79, 67, 80, 50, 81, 59, 70, 47, 48, 60, 82, 
+survey1_deleted <- survey1[-c(1:27, 79, 67, 80, 50, 81, 59, 70, 47, 48, 60, 82, 
                               60, 51, 77, 61, 71, 65, 75, 62, 68, 74, 78, 66, 
                               49, 63, 64, 72, 52, 58, 54, 44, 45, 46, 53, 43, 
-                              57, 38, 39, 55, 56, 83:108)]
+                              57, 38, 39, 35, 34, 33, 32, 29, 83:108)]
 colnames(survey1_deleted)
-#survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed <- format(strptime(survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed, "%I%p"), format="%H")
+survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed <- format(strptime(survey1_deleted$X31_Over_last_two_weeks_when_gone_to_bed, "%I%p"), format="%H")
 colnames(survey2)
-survey2_deleted <- survey2[-c(1:38, 80, 68, 81, 51, 82, 60, 71, 48, 49, 61, 83, 
+survey2_deleted <- survey2[-c(1:28, 80, 68, 81, 51, 82, 60, 71, 48, 49, 61, 83, 
                               61, 52, 78, 62, 72, 66, 76, 63, 69, 75, 79, 67, 
                               50, 64, 65, 73, 53, 59, 55, 45, 46, 47, 54, 44, 
-                              58, 39, 40, 56, 57, 84:109)]
+                              58, 39, 40, 36, 35, 34, 33, 30, 84:109)]
 colnames(survey2_deleted)
-#survey2_deleted$X31_Over_last_two_weeks_when_gone_to_bed <- format(strptime(survey2_deleted$X31_Over_last_two_weeks_when_gone_to_bed, "%I%p"), format="%H")
+survey2_deleted$X31_Over_last_two_weeks_when_gone_to_bed <- format(strptime(survey2_deleted$X31_Over_last_two_weeks_when_gone_to_bed, "%I%p"), format="%H")
 
 column_types1 <- sapply(survey1_deleted, class)
 column_types2 <- sapply(survey2_deleted, class)
@@ -67,7 +67,7 @@ fviz_pca_var(res.pca,
              repel = TRUE     # Avoid text overlapping
 )
 
- # varlist <- setdiff(colnames(survey1), c("Variable.Field.Name"))
+# varlist <- setdiff(colnames(survey1), c("Variable.Field.Name"))
 
 # library(vtreat)
 # treatment_plan <-
