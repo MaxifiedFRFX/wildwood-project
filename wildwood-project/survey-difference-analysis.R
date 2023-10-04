@@ -73,3 +73,4 @@ fviz_pca_var(res.pca,
 # treatment_plan <-
 #   design_missingness_treatment(survey1, varlist = varlist)
 # training_prepared <- prepare(treatment_plan, survey1)
+
